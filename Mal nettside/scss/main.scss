@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    background-color: red;
+}
+
+
+form{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    background-color: #fff;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+
+    @media (min-width: 768px;) {
+        grid-template-columns: repeat(2, 1fr);;
+    }
+}
+
+.ansatt-item-name{
+    padding-top: 50px;
+}
